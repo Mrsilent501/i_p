@@ -73,7 +73,7 @@ def get_ip():
 			print ("\n[*] Your Ip is --> %s"%req3)
 			sleep(2)
 	except:
-		print ("\n\033[92m[\033[91m!\033[92m] \033[91mError You Disconnected with Netwrok")
+		print ("\n\033[92m[\033[91m!\033[92m] \033[91mError Restart the tool \033[92m[\033[91mNot found file or you Disconnected InterNet\033[92m]")
 thread = []
 for i in range(1):
 	thread1 =threading.Thread(target=get_ip)
