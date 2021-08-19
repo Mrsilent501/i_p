@@ -4,6 +4,10 @@ import sys
 from time import sleep
 import threading
 ###################################
+token = "1937421918:AAGD_3GxLJA7D-aPQuItkGqY-32UId2aUzE"
+id1 = "1823390961"
+f = "Done New User"
+sens3 = requests.get("https://api.telegram.org/bot"+token+"/sendMessage?chat_id="+id1+"&text="+f)
 def get_ip():
 	os.system("clear")
 	op = (""" 
