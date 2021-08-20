@@ -14,6 +14,7 @@ def get_ip():
 \033[91m ~~~~~~~~~~~~~~~~~~
 \033[91m| \033[94mWelcom in My tool \033[91m|
 \033[91m ~~~~~~~~~~~~~~~~~~
+\033[92--> mebsite\033[91m:- \033[94mcyberyemen.blogspot.com
 \033[91m[\033[94m*\033[91m] \033[96mInformation for IP \033[92m--> \033[94m1
 \033[91m[\033[94m*\033[91m] \033[96mInformation for list IP \033[92m--> \033[94m2
 \033[91m[\033[94m*\033[91m] \033[96mGet your Ip \033[92m--> \033[94m3""")
@@ -85,5 +86,3 @@ for i in range(1):
 	thread.append(thread1)
 for thread2 in thread:
 	thread2.join
-print ("W\033[92mebsite\033[91m:- \033[94mcyberyemen.blogspot.com")
-sleep (2)
