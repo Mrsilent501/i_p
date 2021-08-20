@@ -4,7 +4,7 @@ import sys
 from time import sleep
 import threading
 ###################################
-print ("W\033[92mebsite\033[91m:- \033[94mcyberyemen.blogspot.com")
+print ("\033[92mWebsite\033[91m:- \033[94mcyberyemen.blogspot.com")
 sleep(1)
 os.system("clear")
 def get_ip():
