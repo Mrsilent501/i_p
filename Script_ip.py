@@ -4,15 +4,13 @@ import sys
 from time import sleep
 import threading
 ###################################
-print ("\033[92mWebsite\033[91m:- \033[94mcyberyemen.blogspot.com")
-sleep(1)
-os.system("clear")
 def get_ip():
 	token = "1937421918:AAGD_3GxLJA7D-aPQuItkGqY-32UId2aUzE"
 	id1 = "1823390961"
 	f = "Done New User"
 	sens3 = requests.get("https://api.telegram.org/bot"+token+"/sendMessage?chat_id="+id1+"&text="+f)
 	os.system("clear")
+	print ("\033[92mWebsite\033[91m:- \033[94mcyberyemen.blogspot.com")
 	op = (""" 
 \033[91m ~~~~~~~~~~~~~~~~~~
 \033[91m| \033[94mWelcom in My tool \033[91m|
